@@ -1,25 +1,25 @@
-// PB0		Output Joy2 fire
-// PB1		Input Joy2 up								 __________
-// PB2		Input Joy2 down						Reset	|1       28|	PC5  (switch)
-// PB3		Input Joy2 left					/	PD0		|2       27|	PC4   \
-// PB4		Input Joy2 right					PD1		|3   A   26|	PC3		
-// PB5		Input Joy2 fire		Joy1 output		PD2		|4   T   25|	PC2		Joy1 Input
-// PB6		N.C									PD3		|5   m   24|	PC1
-// PB7		Output Joy2 up					\	PD4		|6   e   23|	PC0   /
-// PC0		Input Joy1 up						VCC		|7   g   22|	GND
-// PC1		Input Joy1 down						GNC		|8   a   21|	ARef
-// PC2		Input Joy1 left					N.C	PB6		|9   3   20|	AVCC
-// PC3		Input Joy1 right				/	PB7		|10  2   19|	PB5   \
-// PC4		Input Joy1 fire						PD5		|11  8   18|	PB4
-// PC5		Switch				Joy2 output		PD6		|12  p   17|	PB3     Joy 2 Input
-// PD0		Output Joy1 up						PD7		|13      16|	PB2
-// PD1		Output Joy1 down				\	PB0		|14______15|	PB1	  /
-// PD2		Output Joy1 left
-// PD3		Output Joy1 right
-// PD4		Output Joy1 fire
-// PD5		Output Joy2 down
-// PD6		Output Joy2 left
-// PD7		Output Joy2 right 
+// PB0  Output Joy2 fire
+// PB1  Input Joy2 up                                __________
+// PB2  Input Joy2 down                     Reset   |1       28|    PC5  (switch)
+// PB3  Input Joy2 left                 /   PD0     |2       27|    PC4   \
+// PB4  Input Joy2 right                    PD1     |3   A   26|    PC3     
+// PB5  Input Joy2 fire     Joy1 output     PD2     |4   T   25|    PC2     Joy1 Input
+// PB6  N.C                                 PD3     |5   m   24|    PC1
+// PB7  Output Joy2 up                  \   PD4     |6   e   23|    PC0   /
+// PC0  Input Joy1 up                       VCC     |7   g   22|    GND
+// PC1  Input Joy1 down                     GNC     |8   a   21|    ARef
+// PC2  Input Joy1 left                 N.C PB6     |9   3   20|    AVCC
+// PC3  Input Joy1 right                /   PB7     |10  2   19|    PB5   \
+// PC4  Input Joy1 fire                     PD5     |11  8   18|    PB4
+// PC5  Switch              Joy2 output     PD6     |12  p   17|    PB3     Joy 2 Input
+// PD0  Output Joy1 up                      PD7     |13      16|    PB2
+// PD1  Output Joy1 down                \   PB0     |14______15|    PB1   /
+// PD2  Output Joy1 left
+// PD3  Output Joy1 right
+// PD4  Output Joy1 fire
+// PD5  Output Joy2 down
+// PD6  Output Joy2 left
+// PD7  Output Joy2 right 
 
 #include <avr/io.h>
 
